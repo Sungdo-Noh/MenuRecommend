@@ -1,9 +1,11 @@
 import {useState} from 'react';
 
-function Menu(props) {
+function Menu({nums}) {
     return (
         <div>
             
+            <h3>{nums}</h3>
+
         </div>
     );
 }
